@@ -1,0 +1,309 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", serif;
+}
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+    
+.inter-uniquifier{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: wight;
+    font-style: normal;
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: #ffff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #00ff08;
+}
+
+button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #00ff08;
+    transform: scale(1.05);
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+header a{
+    color: rgb(145, 143, 143);
+    text-decoration: none;
+    display: inline-block;
+    transform: 2s;
+}
+header a:hover{
+    color: #ffff;
+    transform: scale(1.10);
+}
+
+
+h1 {
+    cursor: pointer;
+    color: rgb(0, 255, 34)
+}
+header nav ul{
+    list-style-type: none;
+
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+
+
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .txt-topo-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site .txt-topo-site h1{
+    color: #ffff;
+    font-size: 38PX;
+    line-height: 40px;
+}
+
+.logo h2{
+    color: #00ff08;
+    
+    
+    
+}
+
+.topo-do-site h1 span{
+    color: #00ff08 ;
+    font-size: 60px;
+   
+}
+
+.logo h2 span{
+    color:#ffff
+    
+}
+
+.topo-do-site p{
+    color: #ffff;
+    margin: 40px 0px;
+}
+
+.imagem-topo-site{
+
+}
+
+.topo-do-site .imagem-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 70px
+}
+
+.especialidades .especialidades-box{
+    color: #ffff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+box-shadow: 0 0 15px #ffffff71;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #00ff08;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #ffff;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.sobre .txt-sobre h2 span{
+    color:#00ff08;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.btn-social button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+background-color: #00ff08 ;
+font-size: 22px;
+cursor: pointer;
+margin: 0 5px;
+transition: .2s;
+}
+
+section.sobre{
+    padding: 80px 4%;
+    box-shadow: 0 0 10px 10px #ffffff1f;
+}
+
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+margin: 0% auto;
+display: flex;
+justify-content: center;
+flex-direction: column;
+gap: 10px;
+margin-top: 40px;
+}
+
+form input, form textarea{
+width: 100%;
+background-color: rgba(138, 138, 138, 0.329);
+border: none;
+outline: 0;
+padding: 20px 15px;
+border-radius: 15px;
+color: #ffff;
+font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+width: 120px;
+background-color: #00ff08;
+color:black;
+cursor: pointer;
+font-weight: 700;
+transition: .2s;
+}
+
+
+footer{
+    padding: 60px 4%;
+    
+}
+
+footer .flex{
+justify-content: space-between;
+
+}
+
+footer .line-footer{
+    padding: 20px 0;
+    
+}
+
+.borda{
+    border-top: 2px solid #00ff08
+}
+
+footer .line-footer p i{
+    color: #00ff08;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+color: #ffff;
+}
+
+.logo-footer h3{
+    color: #ffff;
+}
+
+.logo-footer span{
+color: #00ff08;
+
+}
